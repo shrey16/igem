@@ -25,6 +25,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 .navItem {
     float: right;
@@ -68,6 +69,7 @@ body {
     position: relative;
     left: 35%;
     height: 1000px;
+    z-index: 0;
 }
 #content h1 {
     margin: 0 0 40px 0;
@@ -78,4 +80,22 @@ body {
 #content p {
     margin: 0 0 30px 0;
     line-height: 2;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35.2px;
+}
+
+#fader {
+    position: absolute;
+    top: 35.2px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(200,100,155,1), rgba(255,255,255,1);
+/*    background-color: aqua;*/
+    z-index: 1;
 }
