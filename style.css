@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+    padding: 35.2px 0 0;
+    height: 100%;
+}
+#logo {
+    float: left;
+    font-size: 20px;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.navItem {
+    float: right;
+}
+.navItem a {
+    display: block;
+    padding: 8px;
+}
+#contentWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#inPageNav {
+    width: 35%;
+}
+
+#inPageNav ol {
+    display: block;
+    margin: 10% 20% 10% 10%;
+    padding: 0;
+}
+
+#inPageNav ol li {
+    display: block;
+    padding: 10px 0 10px 10px;
+}
+
+#inPageNav ol li:hover {
+    background-color: #ddd;
+}   
